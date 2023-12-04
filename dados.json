@@ -1,0 +1,97 @@
+{
+    "ferramentas":[
+        {
+            "name":"Canvas",
+            "img":"/ferramentas/canvas.png"
+        },
+        {
+            "name":"Figma",
+            "img":"/ferramentas/figma.png"
+        },
+        {
+            "name":"Github",
+            "img":"/ferramentas/github.png"
+        },
+        {
+            "name":"Docker",
+            "img":"/ferramentas/docker.png"
+        }
+    ],
+    "back":[
+        {
+            "name":"Node JS",
+            "img":"/back/node.png"
+        },
+        {
+            "name":"Mongo DB",
+            "img":"/back/mongo.png"
+        },
+        {
+            "name":"Express",
+            "img":"/back/express.png"
+        },
+        {
+            "name":"Em breve...",
+            "img":"/back/empty.png"
+        },
+        {
+            "name":"Em breve...",
+            "img":"/back/empty.png"
+        },
+        {
+            "name":"Em breve...",
+            "img":"/back/empty.png"
+        },
+        {
+            "name":"Em breve...",
+            "img":"/back/empty.png"
+        },
+        {
+            "name":"Em breve...",
+            "img":"/back/empty.png"
+        },
+        {
+            "name":"Em breve...",
+            "img":"/back/empty.png"
+        }
+       
+    ],
+    "front":[
+        {
+            "name":"HTML-5",
+            "img":"/front/html.png"
+        },
+        {
+            "name":"CSS-3",
+            "img":"/front/css.png"
+        },
+        {
+            "name":"JavaScript",
+            "img":"/front/JavaScript.png"
+        },
+        {
+            "name":"Bootstrap(Estudando)",
+            "img":"/front/bootstrap-lock.gif"
+        },
+        {
+            "name":"Sass(Estudando)",
+            "img":"/front/saas-lock.gif"
+        },
+        {
+            "name":"TypeScript",
+            "img":"/front/TypeScript.png"
+        },
+        {
+            "name":"Angular(Estudando)",
+            "img":"/front/angular-lock.gif"
+        },
+        {
+            "name":"Vue(Estudando)",
+            "img":"/front/vue-lock.gif"
+        },
+        {
+            "name":"React JS",
+            "img":"/front/react.png"
+        }
+    ]
+}
