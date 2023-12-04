@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Navbar/>
-      <Hero id={"home"} />
+      <Hero/>
       <Sobre id={"sobre"}/>
       <Ferramentas id={"ferramentas"}/>
       <Linguagens id={"habilidades"}/>
