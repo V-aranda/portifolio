@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 
 
 
-export default function Ferramentas({id}){
+export default function Ferramentas({id}:any){
     const [ferramentas,setferramentas] = useState([])
     useEffect(()=>{
         fetch("../../../public/dados.json").then((data)=>data.json()

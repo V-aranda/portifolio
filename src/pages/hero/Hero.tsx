@@ -3,11 +3,11 @@ import Section from "../../components/section/Section"
 import Photo_me from "../../assets/images/Hero_me.png"
 import {HeroTitle, HeroPhoto,HeroBottom,ContentContainer} from "./hero.style"
 
-export function Hero(id){
+export function Hero(){
 
     return(
         <ContentContainer>
-            <Section id={id} sectionclass="container" classname="content">
+            <Section  sectionclass="container" classname="content">
                 <HeroTitle>
                     <span>
                         <h1>VINICIUS ARANDA</h1>

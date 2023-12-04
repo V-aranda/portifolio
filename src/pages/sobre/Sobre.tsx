@@ -3,7 +3,7 @@ import Section from "../../components/section/Section"
 import {Title, Text, ConPhoto,ConText,ContentContainer} from "./sobre.style"
 import maico from "../../assets/images/ma_ico.png"
 
-export default function Sobre({id}){
+export default function Sobre({id}:any){
 
     return(
         <ContentContainer>

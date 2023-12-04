@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 
 
 
-export default function Linguagens({ id }) {
+export default function Linguagens({ id }:any) {
     const [front, setfront] = useState([])
     const [back, setback] = useState([])
     const [frontend_p, setf] = useState(true)
