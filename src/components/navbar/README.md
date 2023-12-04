@@ -1,0 +1,2 @@
+dependencies:
+Styled components
