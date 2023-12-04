@@ -5,6 +5,7 @@ import { Hero } from "./pages/hero/Hero"
 import Sobre from "./pages/sobre/Sobre"
 import Linguagens from "./pages/linguagens/Linguagens"
 import Footer from "./pages/footer/Footer"
+import Projects from "./pages/projects/Projects"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Sobre id={"sobre"}/>
       <Ferramentas id={"ferramentas"}/>
       <Linguagens id={"habilidades"}/>
+      <Projects/>
       <Footer/>
     </>
   )

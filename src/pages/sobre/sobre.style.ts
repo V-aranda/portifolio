@@ -1,7 +1,7 @@
 import styled from "styled-components"
     const ContentContainer = styled.div`
     && .container{
-        padding-top: 12rem;
+        padding-top: 10rem;
     }
     && .content{
         display: flex;

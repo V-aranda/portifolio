@@ -29,6 +29,7 @@ const Navbar_Bar = styled.nav<{ $scroll?: any; }>`
             justify-content: start;
             background-color: var(--main-light);
             flex-direction: column;
+            padding-bottom: 10vw !important;
 
 
             *{  
@@ -39,7 +40,7 @@ const Navbar_Bar = styled.nav<{ $scroll?: any; }>`
             }
             ul{
                 display: block;
-                padding-bottom: 50px;
+                
             }
         }
         &&.closed{

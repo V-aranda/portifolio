@@ -6,7 +6,7 @@ const ContentContainer = styled.div`
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 100vh;
+        
         h1{
             margin-bottom: 30px;
             text-align: center;
@@ -27,7 +27,7 @@ const TechsSection = styled.section`
         position: relative;
         border-radius: 25%;
         justify-content: center;
-        
+        min-height: 39vw;
     }
 `
 
@@ -79,11 +79,13 @@ box-sizing: border-box;
             right: 0px;
         }
         &&.front{
+            
             z-index: 1;
             scale: 1; 
             transition: all 1000ms;
         }
         &&.back{
+            
             z-index: 0;
             filter: blur(3px);
             scale: 0.8;
