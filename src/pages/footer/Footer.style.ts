@@ -8,7 +8,9 @@ const FooterContainer = styled.div`
         display: flex;
         align-items: center;
         a{
-            height:  100px;
+            min-height:  50px;
+            height: 10%;
+            max-height: 100px;
             aspect-ratio: 1/1;
             img{
                 width: 100%;
