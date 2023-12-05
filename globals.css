@@ -28,7 +28,12 @@ html {
 a{
   text-decoration: none;
   color: var(--text-neutral);
+  transition: all 500ms;
 }
+a:hover{
+  transition: all 500ms;
+  
+  text-shadow: rgba(225, 225, 225, 1) 2px 0 10px;}
 ul{
   list-style: none;
 }
