@@ -1,13 +1,12 @@
 import Section from "../../components/section/Section"
 import { TechsContainer, TechsContent, TechsSection, ContentContainer} from "./linguagens.style"
 import ListIcons from "../../components/list/ListIcons"
-import { useEffect, useState } from 'react'
+import {  useState } from 'react'
+import {frontend,backend} from "./data"
 
 
 
 export default function Linguagens({ id }:any) {
-    const [front, setfront] = useState([])
-    const [back, setback] = useState([])
     const [frontend_p, setf] = useState(true)
     const [backend_p, setb] = useState(false)
 
@@ -19,15 +18,6 @@ export default function Linguagens({ id }:any) {
         setf(false)
         setb(true)
     }
-    
-    useEffect(() => {
-        fetch("../../../public/dados.json").then((data) => data.json()
-            .then((ferramentas) => {
-                setfront(ferramentas.front)
-                setback(ferramentas.back)
-                return
-            }))
-    }, [])
 
     return (
         <ContentContainer>
@@ -39,7 +29,7 @@ export default function Linguagens({ id }:any) {
                                     className={`frontend ${frontend_p?"front":"back"}`}>
                         <TechsContent>
                             <h2>Tecnologias<br />Frontend</h2>
-                            <ListIcons classname="tecnologias"  array={front} notname={true} />
+                            <ListIcons classname="tecnologias"  array={frontend} notname={true} />
                         </TechsContent>
                     </TechsContainer>
 
@@ -48,7 +38,7 @@ export default function Linguagens({ id }:any) {
                                     className={`backend ${backend_p?"front":"back"}`}>
                         <TechsContent>
                             <h2>Tecnologias<br />Backend</h2>
-                            <ListIcons classname="tecnologias" array={back} notname={true} />
+                            <ListIcons classname="tecnologias" array={backend} notname={true} />
                         </TechsContent>
                     </TechsContainer>
 

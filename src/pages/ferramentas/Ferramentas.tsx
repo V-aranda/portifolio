@@ -1,17 +1,12 @@
 import ListIcons from "../../components/list/ListIcons"
 import Section from "../../components/section/Section"
 import {FerramentasContainer} from "./ferramentas.style.ts"
-import { useEffect, useState } from 'react'
 
+import {ferramentas} from "./data.ts" 
 
 
 export default function Ferramentas({id}:any){
-    const [ferramentas,setferramentas] = useState([])
-    useEffect(()=>{
-        fetch("../../../public/dados.json").then((data)=>data.json()
-                                           .then((ferramentas)=>setferramentas(ferramentas.ferramentas)))
-                                            
-    },[])
+    
     return(
         <Section id={id}>
             <FerramentasContainer>

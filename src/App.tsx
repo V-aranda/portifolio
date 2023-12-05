@@ -16,9 +16,9 @@ function App() {
       <Navbar/>
       <Hero/>
       <Sobre id={"sobre"}/>
-      <Ferramentas id={"ferramentas"}/>
-      <Linguagens id={"habilidades"}/>
-      <Projects/>
+      <Ferramentas id={"conhecimentos"}/>
+      <Linguagens />
+      <Projects id={"projetos"}/>
       <Footer/>
     </>
   )

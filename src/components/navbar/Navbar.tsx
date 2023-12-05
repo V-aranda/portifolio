@@ -47,8 +47,8 @@ export function List(){
       <>
         <li><a href="#">Inicio</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#ferramentas">Ferramentas</a></li>
-        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#conhecimentos">Conhecimentos</a></li>
+        <li><a href="#projetos">Projetos</a></li>
       </>  
     )
 }
