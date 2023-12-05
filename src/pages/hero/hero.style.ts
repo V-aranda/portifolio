@@ -24,18 +24,43 @@ const ContentContainer=styled.div`
 
 
 const HeroTitle = styled.div`
-    margin-bottom: 10vw;
+    
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
     span{
         color: var(--text-neutral);
         border-left: 10px solid var(--text-neutral);
         padding-left: 1.5rem;
+        margin-bottom: 5vh;
     }
-    /* @media screen and (min-width: 576px){
+    @media screen and (min-width: 576px){
         margin-bottom: 0px;
-    } */
+        span{
+            margin-bottom: 5vw;
+        }
+    }
 
+`
+const Gt_button = styled.a`
+    padding: 15px 20px;
+    background-color: var(--main-sat);
+    border-radius:15px;
+    margin-bottom: 5vw;
+    font-size: 130%;
+    font-weight: bold;
+    transition: all 500ms;
+    &&:hover{
+        scale: 1.2;
+        box-shadow: rgba(225, 225, 225, 0.35) 0px 5px 15px;
+    }
+    svg{
+        margin-right: 5px;
+    }
+
+    
 `
 
 
@@ -58,4 +83,4 @@ const HeroBottom = styled.div`
     background-size: 100% 100%;
 `
 
-export{HeroPhoto, HeroTitle,HeroBottom,ContentContainer}
+export{HeroPhoto, HeroTitle,HeroBottom,ContentContainer,Gt_button}

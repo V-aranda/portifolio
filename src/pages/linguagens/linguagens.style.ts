@@ -8,7 +8,6 @@ const ContentContainer = styled.div`
         align-items: center;
         
         h1{
-            margin-bottom: 30px;
             text-align: center;
         }
     }
@@ -39,7 +38,7 @@ box-sizing: border-box;
 
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 
     justify-content: center;
     align-items: center;
@@ -58,7 +57,6 @@ box-sizing: border-box;
     }
     @media screen and (min-width: 576px){
         width:50%;
-        margin-bottom: 0px;
         &&.backend{
          border-radius: 0px  25px 25px 0px;
         }
