@@ -183,9 +183,14 @@ Error generating stack: `+l.message+`
     align-items:center;
 
     box-sizing: border-box;
-    padding-inline: 10vw;
-
+    padding-inline: 8vw;
     padding-top : 6rem;
+    @media screen and (min-width: 576px){
+        padding-inline: 9vw;
+    }
+    @media screen and (min-width: 1270px){
+        padding-inline: 18vw;
+    }
 `,sv=b.div`  
     width: 100%;
     
@@ -425,7 +430,9 @@ box-sizing: border-box;
         display: flex;
         align-items: center;
         a{
-            height:  100px;
+            min-height:  50px;
+            height: 10%;
+            max-height: 100px;
             aspect-ratio: 1/1;
             img{
                 width: 100%;
