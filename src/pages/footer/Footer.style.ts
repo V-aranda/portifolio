@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const FooterContainer = styled.div`
 
-    .content{
+    .Content{
         
         color: var(--text-neutral);
         display: flex;
@@ -18,10 +18,10 @@ const FooterContainer = styled.div`
         }
 
     }
-    .container{
+    .Section{
         background-color: var(--main-dark);
         padding: 40px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
 `

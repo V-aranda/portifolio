@@ -6,7 +6,7 @@ export default function Footer(){
     
     return(
        <FooterContainer>
-         <Section classname="content" sectionclass="container">
+         <Section>
             
             <Logo/>
             <Footer_Nav>

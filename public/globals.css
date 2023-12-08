@@ -3,12 +3,14 @@
 :root {
   --main-light: rgb(210, 210, 210);
   --main-dark: rgb(21, 23, 34);
-  --main-background: #2B1B45;
-  --main-light: rgb(238, 238, 238);
-  --main-neutral: #1e1330;
-  --main-sat: rgb(102, 0, 255);
+  --sec-neutral: #762222;
+  --main-neutral: #151c4b;
+  --main-sat: rgb(76, 0, 255);
+  --sec-sat: rgb(255, 0, 0);
+  --blend: rgb(89, 15, 136);
   --text-neutral: white;
   --text-light: #272727;
+  --swiper-theme-color: white;
 
   --sm: 576px;
   --md: 720px;
@@ -44,6 +46,20 @@ h1{
 }
 h2{
   font-weight: 600;
-  font-size: calc(0.7rem + 1vw);
+  font-size: calc(0.7rem + 0.8vw);
 }
 
+.swiper-pagination-bullet{
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  color: var(--blend);
+  font-weight: bold;
+
+    
+  
+}
+.swiper-pagination-bullets-dynamic{
+  left: 50% !important;
+    bottom: 50% !important;
+}

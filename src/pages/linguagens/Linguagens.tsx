@@ -21,14 +21,15 @@ export default function Linguagens({ id }:any) {
 
     return (
         <ContentContainer>
-            <Section id={id} classname="content">
+            <Section id={id}>
                 <h1>MINHAS HABILIDADES</h1>
                 <TechsSection>
 
                     <TechsContainer onMouseEnter={handlefront} 
                                     className={`frontend ${frontend_p?"front":"back"}`}>
+                        <h2>Tecnologias<br />Frontend</h2>
                         <TechsContent>
-                            <h2>Tecnologias<br />Frontend</h2>
+                            
                             <ListIcons classname="tecnologias"  array={frontend} notname={true} />
                         </TechsContent>
                     </TechsContainer>
@@ -36,9 +37,10 @@ export default function Linguagens({ id }:any) {
                     <TechsContainer onMouseEnter={handleback} 
                                     onMouseLeave={handlefront}  
                                     className={`backend ${backend_p?"front":"back"}`}>
+                        <h2>Tecnologias<br />Backend</h2>
                         <TechsContent>
-                            <h2>Tecnologias<br />Backend</h2>
-                            <ListIcons classname="tecnologias" array={backend} notname={true} />
+                            
+                            <ListIcons classname="tecnologiasb" array={backend} notname={true} />
                         </TechsContent>
                     </TechsContainer>
 

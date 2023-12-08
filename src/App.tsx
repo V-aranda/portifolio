@@ -6,6 +6,7 @@ import Sobre from "./pages/sobre/Sobre"
 import Linguagens from "./pages/linguagens/Linguagens"
 import Footer from "./pages/footer/Footer"
 import Projects from "./pages/projects/Projects"
+import Portifolio from "./pages/portfolio/Portifolio"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Ferramentas id={"conhecimentos"}/>
       <Linguagens />
       <Projects id={"projetos"}/>
+      <Portifolio/>
       <Footer/>
     </>
   )

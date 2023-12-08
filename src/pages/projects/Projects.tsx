@@ -10,7 +10,7 @@ import 'swiper/css'
 export default function Projects({id}:any){
     return(
         <ProjectsContainer id={id}>
-            <Section classname="content" sectionclass="container">
+            <Section>
             <h1>Projetos Que Faço Parte</h1>
             <Swiper_Content>
                     <Swiper 

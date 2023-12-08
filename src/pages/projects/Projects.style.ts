@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
 const ProjectsContainer = styled.div`
-    && .content{
+    && .Content{
         width: 100%;
         display: flex;
         flex-direction:column;
         align-items: center;
     }
-    && .container{
+    && .Section{
         overflow-x: hidden;
         padding-inline: 0px;
     }

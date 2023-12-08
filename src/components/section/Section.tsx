@@ -8,11 +8,11 @@ interface SectionProps{
     id?:string
 }
 
-export default function Section({children,classname,sectionclass,id}: SectionProps){
+export default function Section({children,id}: SectionProps){
 
     return(
-        <Section_container id={id} className={`${sectionclass}`}>
-           <Section_content className = {classname}>
+        <Section_container id={id} className="Section">
+           <Section_content className ="Content" >
                 {children}
            </Section_content>
         </Section_container>

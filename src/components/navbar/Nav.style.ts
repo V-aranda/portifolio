@@ -25,11 +25,11 @@ const Navbar_Bar = styled.nav<{ $scroll?: any; }>`
     @media screen and (max-width: 992px){
         transition: all 500ms;
         &&.open{
-            box-shadow: -1px 50px 10px 60vh rgba(0,0,0,0.5);
+            box-shadow: -1px 50px 10px 100vh rgba(0,0,0,0.5);
             justify-content: start;
             background-color: var(--main-light);
             flex-direction: column;
-            padding-bottom: 10vw !important;
+            ;
 
 
             *{  
@@ -40,7 +40,7 @@ const Navbar_Bar = styled.nav<{ $scroll?: any; }>`
             }
             ul{
                 display: block;
-                
+                padding-block: 10vw !important
             }
         }
         &&.closed{

@@ -6,7 +6,7 @@ import Herobotton from "../images/Hero_botton.png"
 
 const Hero_container = styled.div`
 
-    background-color: var(--main-background);
+    background-color: var(--sec-neutral);
     background-attachment: fixed;
     box-shadow: -1px 45px 100px 22px rgba(0, 0, 0, 0.78) inset;
     min-height: 75vh;

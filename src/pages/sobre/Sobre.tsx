@@ -7,7 +7,7 @@ export default function Sobre({id}:any){
 
     return(
         <ContentContainer>
-            <Section id={id} classname='content' sectionclass='container'>
+            <Section id={id}>
                 <ConText>
                     <Title>
                         Olá,

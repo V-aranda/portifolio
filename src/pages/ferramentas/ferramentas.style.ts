@@ -5,7 +5,7 @@ const FerramentasContainer = styled.div`
     text-align: center;
     margin-bottom: 30px;
    } 
-   && section{
+   && Section{
     padding-block: 30px;
     border-block: 1px solid black;
     column-gap: 50px;

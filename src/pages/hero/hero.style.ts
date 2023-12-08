@@ -4,20 +4,22 @@ import background from "../../assets/images/Hero_background.png"
 
 
 const ContentContainer=styled.div`
-    && .content{
+    && .Content{
         display: flex;
         flex-wrap: wrap;
         max-height: 95vh;
         overflow: hidden;
-        div{
+        .cont{
             width: 100%;  
             @media screen and (min-width: 576px){
                 width: 50%;  
             }
         }
     }
-    && .container{
+    && .Section{
         background-image: url(${background});
+        background-size: cover;
+        background-attachment: fixed;
     }
 
 `
@@ -27,34 +29,81 @@ const HeroTitle = styled.div`
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items:center;
-    
+    .buttons{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        @media screen and (min-width: 576px){
+            margin-top: 2rem;
+        }
+    }
     span{
         color: var(--text-neutral);
         border-left: 10px solid var(--text-neutral);
         padding-left: 1.5rem;
-        margin-bottom: 5vh;
+        h1{
+            font-size: 145%;
+        }
+        h2{
+            font-size: 80%;
+        }
+        
+            
+        @media screen and (min-width: 720px){
+            h1{
+                font-size: 175%;
+            }
+            h2{
+                font-size: 100%;
+            }
+        }    
+        @media screen and (min-width: 992px){
+            h1{
+                font-size: 3.5vw;
+            }
+            h2{
+                font-size: 125%;
+            }
+        } 
+        @media screen and (min-width: 992px){
+            h1{
+                font-size: 2.5vw;
+            }
+            h2{
+                font-size: 125%;
+            }
+        } 
+        
     }
+    
+    
     @media screen and (min-width: 576px){
         margin-bottom: 0px;
-        span{
-            margin-bottom: 5vw;
-        }
+        
+        
     }
-
+    @media screen and (min-width: 720px){
+        margin-bottom: 5vw;
+        justify-content: center;
+        
+    }
 `
 const Gt_button = styled.a`
     padding: 15px 20px;
     background-color: var(--main-sat);
     border-radius:15px;
-    margin-bottom: 5vw;
-    font-size: 130%;
+    margin-bottom: 2vw;
+    font-size: 100%;
     font-weight: bold;
     transition: all 500ms;
     &&:hover{
-        scale: 1.2;
+        scale: 1.05;
         box-shadow: rgba(225, 225, 225, 0.35) 0px 5px 15px;
+        background-color: red;
     }
     svg{
         margin-right: 5px;
@@ -69,7 +118,7 @@ const HeroPhoto = styled.div`
     justify-content: center;
     align-items: end;
     img{
-        mix-blend-mode: luminosity;
+        mix-blend-mode: normal;
         width: 100%;
     }
 `

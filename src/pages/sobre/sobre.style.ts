@@ -1,22 +1,28 @@
 import styled from "styled-components"
     const ContentContainer = styled.div`
-    && .container{
+    && .Section{
         padding-top: 10rem;
     }
-    && .content{
+    && .Content{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
     
     `
-    const Title = styled.h1``
+    const Title = styled.h1`
+        color: var(--blend);
+    `
     const Text = styled.p`
         font-size: 1rem;
         margin-top: 10px;
         text-align: justify;
         span{
             color: var(--main-sat);
+            font-weight: 600;
+        }
+        span:nth-child(1){
+            color: var(--sec-sat);
             font-weight: 600;
         }
         @media screen and (min-width: 768px){

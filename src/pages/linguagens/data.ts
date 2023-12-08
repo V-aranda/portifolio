@@ -1,3 +1,4 @@
+import empty from "../../assets/back/empty.png"
 const frontend = [
     {
         name:"HTML-5",
@@ -48,30 +49,6 @@ const backend = [
     {
         name:"Express",
         img:"https://imgur.com/HbIGM12.png"
-    },
-    {
-        name:"Em breve...",
-        img:"https://imgur.com/bB2Rth6.png"
-    },
-    {
-        name:"Em breve...",
-        img:"https://imgur.com/bB2Rth6.png"
-    },
-    {
-        name:"Em breve...",
-        img:"https://imgur.com/bB2Rth6.png"
-    },
-    {
-        name:"Em breve...",
-        img:"https://imgur.com/bB2Rth6.png"
-    },
-    {
-        name:"Em breve...",
-        img:"https://imgur.com/bB2Rth6.png"
-    },
-    {
-        name:"Em breve...",
-        img:"https://imgur.com/bB2Rth6.png"
     }
 ]
 
