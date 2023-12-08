@@ -1,4 +1,4 @@
-import empty from "../../assets/back/empty.png"
+
 const frontend = [
     {
         name:"HTML-5",

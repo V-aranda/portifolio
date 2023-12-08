@@ -14,7 +14,7 @@ export default function Portifolio(){
     const pagination = {
         clickable: true,
         dynamicBullets: true,
-        renderBullet: function (index, className) {
+        renderBullet: function (index:any, className:any) {
           return '<span class="' + className + '">' + (index + 1) + '</span>';
         },
       };

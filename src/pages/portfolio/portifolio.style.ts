@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Pagination } from 'swiper/modules';
+
 const Content_container = styled.div`
 
     .Section{
