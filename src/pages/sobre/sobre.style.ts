@@ -16,7 +16,7 @@ import styled from "styled-components"
     const Text = styled.p`
         font-size: 1rem;
         margin-top: 10px;
-        text-align: justify;
+        text-align: left;
         span{
             color: var(--main-sat);
             font-weight: 600;

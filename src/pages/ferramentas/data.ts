@@ -1,19 +1,24 @@
+import canva from "../../assets/ferramentas/canvas.png"
+import github from "../../assets/ferramentas/github.png"
+import figma from "../../assets/ferramentas/figma.png"
+import docker from "../../assets/ferramentas/docker.png"
+
 const ferramentas = [
     {
         name:"Canvas",
-        img:"https://imgur.com/aeQAzER.png"
+        img:canva
     },
     {
         name:"Figma",
-        img:"https://imgur.com/dsW2O4a.png"
+        img:figma
     },
     {
         name:"Github",
-        img:"https://imgur.com/kl2WhUM.png"
+        img:github
     },
     {
         name:"Docker",
-        img:"https://imgur.com/0r5oUIk.png"
+        img:docker
     }
 ]
 export{ferramentas}

@@ -1,54 +1,65 @@
-
+import f1 from '../../assets/front/html.png'
+import f2 from '../../assets/front/css.png'
+import f3 from '../../assets/front/JavaScript.png'
+import f4 from '../../assets/front/bootstrap-lock.gif'
+import f5 from '../../assets/front/saas-lock.gif'
+import f6 from '../../assets/front/TypeScript.png'
+import f7 from '../../assets/front/angular-lock.gif'
+import f8 from '../../assets/front/vue-lock.gif'
+import f9 from '../../assets/front/react.png'
+import b1 from '../../assets/back/node.png'
+import b2 from '../../assets/back/mongo.png'
+import b3 from '../../assets/back/express.png'
 const frontend = [
     {
         name:"HTML-5",
-        img:"https://imgur.com/ImePdht.png"
+        img:f1
     },
     {
         name:"CSS-3",
-        img:"https://imgur.com/ZTGm8Hv.png"
+        img:f2
     },
     {
         name:"JavaScript",
-        img:"https://imgur.com/mt66ulz.png"
+        img:f3
     },
     {
         name:"Bootstrap(Estudando)",
-        img:"https://imgur.com/uCmphLy.gif"
+        img:f4
     },
     {
         name:"Sass(Estudando)",
-        img:"https://imgur.com/Zb2QFpt.gif"
+        img:f5
     },
     {
         name:"TypeScript",
-        img:"https://imgur.com/XAUiL5W.png"
+        img:f6
     },
     {
         name:"Angular(Estudando)",
-        img:"https://imgur.com/WEQFRPD.gif"
+        img:f7
     },
     {
         name:"Vue(Estudando)",
-        img:"https://imgur.com/2MIBVZC.gif"
+        img:f8
     },
     {
         name:"React JS",
-        img:"https://imgur.com/feDqghd.png"
+        img:f9
     }
 ]
 const backend = [
     {
         name:"Node JS",
-        img:"https://imgur.com/dbAf8Rl.png"
+        img:b1
     },
     {
         name:"Mongo DB",
-        img:"https://imgur.com/eI2SM7c.png"
+        img:b2
     },
     {
         name:"Express",
-        img:"https://imgur.com/HbIGM12.png"
+        img:b3
     }
 ]
 
