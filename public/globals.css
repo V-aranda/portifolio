@@ -3,10 +3,10 @@
 :root {
   --main-light: rgb(210, 210, 210);
   --main-dark: rgb(21, 23, 34);
-  --sec-neutral: #762222;
+  --sec-neutral: #5e2276;
   --main-neutral: #151c4b;
   --main-sat: rgb(76, 0, 255);
-  --sec-sat: rgb(255, 0, 0);
+  --sec-sat: rgb(128, 0, 255);
   --blend: rgb(89, 15, 136);
   --text-neutral: white;
   --text-light: #272727;

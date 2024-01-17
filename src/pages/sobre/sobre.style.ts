@@ -11,7 +11,7 @@ import styled from "styled-components"
     
     `
     const Title = styled.h1`
-        color: var(--blend);
+        color: var(--sec-sat);
     `
     const Text = styled.p`
         font-size: 1rem;

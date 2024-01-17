@@ -92,34 +92,22 @@ const HeroTitle = styled.div`
         
     }
 `
-const Gt_button = styled.a`
-    padding: 15px 20px;
-    background-color: var(--main-sat);
-    border-radius:15px;
-    margin-bottom: 2vw;
-    font-size: 100%;
-    font-weight: bold;
-    transition: all 500ms;
-    &&:hover{
-        scale: 1.05;
-        box-shadow: rgba(225, 225, 225, 0.35) 0px 5px 15px;
-        background-color: red;
-    }
-    svg{
-        margin-right: 5px;
-    }
 
-    
-`
 
 
 const HeroPhoto = styled.div`
     display: flex;
     justify-content: center;
     align-items: end;
+    @media screen and (max-width: 576px){
+        min-height: 100vw;
+    }
     img{
         mix-blend-mode: normal;
         width: 100%;
+        @media screen and (max-width: 576px){
+        width: 85%
+    }
     }
 `
 const HeroBottom = styled.div`
@@ -132,4 +120,4 @@ const HeroBottom = styled.div`
     background-size: 100% 100%;
 `
 
-export{HeroPhoto, HeroTitle,HeroBottom,ContentContainer,Gt_button}
+export{HeroPhoto, HeroTitle,HeroBottom,ContentContainer}

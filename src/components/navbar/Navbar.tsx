@@ -13,7 +13,7 @@ export default function Navbar(){
   const [scrollY, setScrollY] = useState(0);
 
   const handleScroll = () => {
-    if (window.scrollY > 1000) return;
+    if (window.scrollY > 600) return;
       setScrollY(window.scrollY);
     
     

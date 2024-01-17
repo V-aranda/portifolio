@@ -9,7 +9,7 @@ const Section_container = styled.section`
 
     box-sizing: border-box;
     padding-inline: 8vw;
-    padding-top : 6rem;
+    padding-top : 5rem;
     @media screen and (min-width: 576px){
         padding-inline: 9vw;
     }

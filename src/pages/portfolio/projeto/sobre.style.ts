@@ -6,12 +6,20 @@ import styled from "styled-components"
         @media screen and (min-width: 992px){
             justify-content: left;
         }
+        a:hover{
+            color: #7536A8 !important;
+        }
     `
-    const Title = styled.h1``
+    const Title = styled.h1`
+        color: var(--text-neutral) !important; 
+        text-shadow: 2px 2px 5px black; 
+    `
     const Text = styled.p`
         font-size: 1rem;
         margin-top: 10px;
         text-align: left;
+        color: var(--text-neutral) !important; 
+        text-shadow: 2px 2px 5px black;  
         span{
             color: var(--main-sat);
             font-weight: 600;
@@ -19,6 +27,7 @@ import styled from "styled-components"
         @media screen and (min-width: 768px){
             font-size: 1.25rem;
         }
+        
 
     `
     const ConText = styled.div`
@@ -32,7 +41,7 @@ import styled from "styled-components"
     `
     const ConPhoto = styled.div`
         box-sizing: border-box;
-        margin-top: 30px; 
+        margin-block: 30px; 
         width: 100%;
         img{
             width: 100%;
@@ -42,29 +51,11 @@ import styled from "styled-components"
         }
         
         @media screen and (min-width: 992px){
-            margin-top: 0px;
+            margin-block: 0px;
             width: 50%;
-            padding-left: 10%;
+            padding-left: 2%;
         }
     
     `
-    const Lnk_button = styled.a`
-    padding: 15px 20px;
-    background-color: var(--main-sat);
-    border-radius:15px;
-    margin-bottom: 2vw;
-    font-size: 100%;
-    font-weight: bold;
-    transition: all 500ms;
-    &&:hover{
-        scale: 1.05;
-        box-shadow: rgba(225, 225, 225, 0.35) 0px 5px 15px;
-        background-color: red;
-    }
-    svg{
-        margin-right: 5px;
-    }
-
     
-`
-export{Text,Title,ConPhoto,ConText,ContentContainer,Lnk_button}
+export{Text,Title,ConPhoto,ConText,ContentContainer}

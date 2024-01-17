@@ -1,7 +1,8 @@
 
 
-import {Title, Text, ConPhoto,ConText,ContentContainer, Lnk_button} from "./sobre.style"
-
+import { Link_button } from "../../../components/lnk_button/lnkButton.style"
+import {Title, Text, ConPhoto,ConText,ContentContainer} from "./sobre.style"
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 export default function Projeto(Project:any){
 
@@ -20,9 +21,11 @@ export default function Projeto(Project:any){
                 <ConPhoto>
                     <img src={Project.img} alt="" />
                 </ConPhoto>
-                <Lnk_button href={Project.link} target="blank">
+                <Link_button href={Project.link} target="blank">
+                    
                     Visitar
-                </Lnk_button>
+                    < BsBoxArrowUpRight/>
+                </Link_button>
                 
             </ContentContainer> 
         

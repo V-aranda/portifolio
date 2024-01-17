@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Navbar_Bar = styled.nav<{ $scroll?: any; }>`
     background-color: rgba(21,23,34,${props=>props.$scroll/600});
     padding-block: 15px;
-    
+    backdrop-filter:blur(5px);
     position : fixed;
 
     color: var(--text-neutral);

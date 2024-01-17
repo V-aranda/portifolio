@@ -19,10 +19,7 @@ const Content_container = styled.div`
             
             .projeto{
                 padding-block: 3rem;
-                *{
-                 color: var(--text-neutral) !important; 
-                 text-shadow: 2px 2px 5px black;  
-                }
+                
                 @media screen and (min-width: 573px){
                     padding-inline: 3rem;
                 }
