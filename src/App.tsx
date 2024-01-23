@@ -7,6 +7,7 @@ import Linguagens from "./pages/linguagens/Linguagens"
 import Footer from "./pages/footer/Footer"
 import Projects from "./pages/projects/Projects"
 import Portifolio from "./pages/portfolio/Portifolio"
+import '../public/globals.css'
 
 
 function App() {
